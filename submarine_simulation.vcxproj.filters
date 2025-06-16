@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\assets">
+      <UniqueIdentifier>{f2e8f5f3-1f15-412a-a858-6e4f58388c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\coral">
+      <UniqueIdentifier>{17dde1a0-ae72-442f-a7e7-dd2166557c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\submarine">
+      <UniqueIdentifier>{38e64d2e-ce46-4292-9ed3-93888636cdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\assets\textures">
+      <UniqueIdentifier>{65be4907-bd69-46f1-a3f5-71b60f1567fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boids">
+      <UniqueIdentifier>{9b161b5b-2fe2-4736-8e73-8cbd2108f6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\boids">
+      <UniqueIdentifier>{503afaf1-5c20-4dba-96bb-2def88e05bc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glut_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\submarine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\coral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boids\boids.h">
+      <Filter>Header Files\boids</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boids\boid_physics.h">
+      <Filter>Header Files\boids</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boids\boid_behavior.h">
+      <Filter>Header Files\boids</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\camera.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geometry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glut_callbacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\renderer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\texture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lighting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scene_object.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\submarine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\water.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\coral.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\environment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\boids\boids.c">
+      <Filter>Source Files\boids</Filter>
+    </ClCompile>
+    <ClCompile Include="source\boids\boid_behavior.c">
+      <Filter>Source Files\boids</Filter>
+    </ClCompile>
+    <ClCompile Include="source\boids\boid_physics.c">
+      <Filter>Source Files\boids</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\assets\submarine\submarine-smooth.txt">
+      <Filter>Resource Files\assets\submarine</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_1.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_2.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_3.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_4.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_5.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_6.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_7.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_8.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_9.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_10.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_11.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_12.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_13.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+    <Text Include="resources\assets\coral\coral_14.txt">
+      <Filter>Resource Files\assets\coral</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\assets\textures\sand.jpg">
+      <Filter>Resource Files\assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
